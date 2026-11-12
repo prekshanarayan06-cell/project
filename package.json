@@ -1,0 +1,15 @@
+{
+  "name": "krishisahayak-ai",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "npm run build --workspace frontend",
+    "vercel-build": "npm run build"
+  }
+}
